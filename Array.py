@@ -12,6 +12,7 @@ class Array(object):
     #getMethod
     def get(self,n):
         if 0 <= n < self.__nItems:
+            return self.__a[n]
 
     #setMethod
     def set(self,n,value):
